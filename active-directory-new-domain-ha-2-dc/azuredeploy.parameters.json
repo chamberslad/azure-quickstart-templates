@@ -3,16 +3,16 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "adminUsername": {
-            "value": "GEN-UNIQUE"
+            "value": "localadmin"
         },
         "adminPassword": {
-            "value": "GEN-PASSWORD"
+            "value": "Sp1derman!1984"
         },
         "dnsPrefix": {
-            "value": "GEN-UNIQUE"
+            "value": "azsmart"
         },
         "domainName": {
-            "value": "mydomain.local"
+            "value": "azuresmart.co.uk"
         }
     }
 }
