@@ -3,16 +3,16 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "adminUsername": {
-            "value": "localadmin"
+            "value": "domadmin"
         },
         "adminPassword": {
-            "value": "Sp1derman!1984"
+            "value": "Flip16bin!"
         },
         "dnsPrefix": {
-            "value": "azsmart"
+            "value": "pacddomain"
         },
         "domainName": {
-            "value": "azuresmart.co.uk"
+            "value": "pacd.local"
         }
     }
 }
