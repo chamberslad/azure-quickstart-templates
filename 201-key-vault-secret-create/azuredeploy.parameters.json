@@ -3,24 +3,16 @@
         "contentVersion": "1.0.0.0",
         "parameters": {
             "keyVaultName": {
-                "value": "testVault"
+                "value": "AZ-KEYV-001"
             },
             "tenantId": {
-                "value": "example-guid"
+                "value": "c79c712e-ad67-43da-a863-c95bb8f61175"
             },
             "accessPolicies": {
                 "value": [
                     {
-                        "tenantId": "example-guid",
-                        "objectId": "example-guid",
-                        "permissions": {
-                            "keys": ["all"],
-                            "secrets": ["all"]
-                        }
-                    },
-                    {
-                        "tenantId": "example-guid",
-                        "objectId": "example-guid",
+                        "tenantId": "c79c712e-ad67-43da-a863-c95bb8f61175",
+                        "objectId": "dd6e4858-f328-43c4-9a9d-ae2e23f94447",
                         "permissions": {
                             "keys": ["all"],
                             "secrets": ["all"]

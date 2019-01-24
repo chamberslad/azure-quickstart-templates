@@ -4,10 +4,10 @@
     "parameters": {
         "vNet1Name":
         {
-            "value": "vNet1peeringtest"
+            "value": "LC-VNET-001"
         },
         "vNet2Name": {
-            "value": "vNet2peeringtest"
+            "value": "LC-VNET-002"
         }
     }
 }

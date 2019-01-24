@@ -1,0 +1,41 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "westeurope"
+        },
+        "networkInterfaceName": {
+            "value": "DC01-NIC01"
+        },
+        "subnetName": {
+            "value": "INFRA"
+        },
+        "virtualNetworkId": {
+            "value": "/subscriptions/859ed0ca-04ae-4799-8cc8-9bd9c00da5d3/resourceGroups/AZF-NW-001/providers/Microsoft.Network/virtualNetworks/LC-VNET-001"
+        },
+        "virtualMachineName": {
+            "value": "DC01"
+        },
+        "virtualMachineRG": {
+            "value": "AZ-DC-001"
+        },
+        "osDiskType": {
+            "value": "Premium_LRS"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_DS1_v2"
+        },
+        "adminUsername": {
+            "value": "localadmin"
+        },
+		"adminPassword":  {
+           "reference":  {
+              "keyVault":  {
+                "id":  "/subscriptions/859ed0ca-04ae-4799-8cc8-9bd9c00da5d3/resourceGroups/AZ-KV-001/providers/Microsoft.KeyVault/vaults/AZ-KV-001"
+                },
+              "secretName":  "VM-Password"
+           }
+         }
+    }
+}
